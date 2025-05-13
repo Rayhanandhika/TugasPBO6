@@ -1,0 +1,11 @@
+package laptop;
+
+public abstract class AbstractLaptop implements Laptop {
+    protected int volume;
+    protected boolean isOn;
+
+    public AbstractLaptop() {
+        this.volume = 50;
+        this.isOn = false;
+    }
+}
